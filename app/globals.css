@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #003676;
+  --brand-light: #1a4f96;
+  --accent: #f5a623;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  @apply bg-white text-slate-800 antialiased;
+  overflow-x: hidden;
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn {
+    @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-all duration-300 active:scale-[0.97] sm:text-base;
+  }
+
+  .btn-primary {
+    @apply btn bg-brand text-white shadow-soft hover:bg-brand-600 hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .btn-accent {
+    @apply btn bg-accent text-brand-900 shadow-soft hover:bg-accent-dark hover:-translate-y-0.5;
+  }
+
+  .btn-outline {
+    @apply btn border-2 border-brand bg-white text-brand hover:bg-brand hover:text-white;
+  }
+
+  .section-title {
+    @apply font-display text-3xl font-extrabold leading-[1.25] tracking-tight text-brand-900 sm:text-4xl md:text-5xl;
+  }
+
+  .eyebrow {
+    @apply inline-block text-xs font-bold uppercase tracking-[0.2em] text-accent-dark sm:text-sm;
+  }
+
+  .card {
+    @apply rounded-2xl bg-white shadow-card ring-1 ring-slate-100;
+  }
+}
+
+.bg-grid {
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.18) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-float,
+  .animate-fade-up {
+    animation: none !important;
+  }
+}
