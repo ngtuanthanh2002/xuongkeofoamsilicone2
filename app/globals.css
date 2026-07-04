@@ -1,4 +1,4 @@
-@tailwind base;
+﻿@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -13,126 +13,13 @@
 }
 
 html {
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 body {
-  @apply bg-neutral-200 text-slate-800 antialiased;
+  @apply bg-white text-slate-800 antialiased;
   overflow-x: hidden;
-  margin: 0;
-}
-
-.ld1-page {
-  width: 450px;
-  max-width: 100%;
-  margin: 0 auto;
-  background: #fff;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.ld1-page img,
-.ld1-page video {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.ld1-hero {
-  background: #f0f0f0;
-  text-align: center;
-  padding: 28px 20px 0;
-}
-
-.ld1-title {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 800;
-  color: #1a1a1a;
-  letter-spacing: 2px;
-  line-height: 1.1;
-}
-
-.ld1-subtitle {
-  margin: 10px 0 0;
-  font-size: 15px;
-  font-weight: 400;
-  color: #555;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.ld1-img {
-  margin-top: 16px;
-}
-
-.ld1-video {
-  padding: 28px 20px 32px;
-  text-align: center;
-  background: #fff;
-}
-
-.ld1-video-heading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  margin-bottom: 16px;
-}
-
-.ld1-video-heading h2 {
-  margin: 0;
-  font-size: 22px;
-  font-weight: 800;
-  color: #1a1a1a;
-  white-space: nowrap;
-}
-
-.ld1-line {
-  flex: 1;
-  height: 1px;
-  background: #999;
-  max-width: 80px;
-}
-
-.ld1-video-desc {
-  margin: 6px 0;
-  font-size: 14px;
-  font-weight: 300;
-  color: #666;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.ld1-video-player {
-  margin-top: 20px;
-  background: #000;
-}
-
-.ld1-section {
-  background: #fff;
-  text-align: center;
-}
-
-.ld1-section-title {
-  margin: 0;
-  padding: 28px 20px 16px;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 800;
-  color: #1a1a1a;
-}
-
-.ld1-banner {
-  background: #000;
-  color: #fff;
-  text-align: center;
-  padding: 14px 20px;
-  font-size: 13px;
-  font-weight: 500;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-}
-
-.ld1-section-last {
-  padding-bottom: 0;
 }
 
 @layer components {

@@ -12,7 +12,7 @@ export default function Certifications() {
           </p>
         </div>
 
-        <div className="mx-auto mt-10 max-w-3xl">
+        <div className="mx-auto mt-10 max-w-3xl md:max-w-lg lg:max-w-xl">
           <Image
             src="/images/banner/6.jpg"
             alt="Chứng nhận quốc tế và năng lực sản xuất AOFENG"

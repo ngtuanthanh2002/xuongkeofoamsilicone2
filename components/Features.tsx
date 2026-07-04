@@ -63,7 +63,7 @@ export default function Features() {
     <>
       <section id="video" className="bg-white py-16 sm:py-20 md:py-24">
         <div className="container-page">
-          <div className="mx-auto max-w-2xl">
+          <div className="mx-auto max-w-2xl md:max-w-lg lg:max-w-xl">
             <BannerImage b={poster} priority />
           </div>
 
@@ -99,7 +99,7 @@ export default function Features() {
             </p>
           </div>
 
-          <div className="mx-auto mt-10 max-w-5xl space-y-5 sm:space-y-6">
+          <div className="mx-auto mt-10 max-w-5xl space-y-5 sm:space-y-6 md:max-w-2xl lg:max-w-3xl">
             <BannerImage b={banners[0]} />
 
             <div className="grid items-start gap-5 sm:gap-6 md:grid-cols-2">
@@ -107,7 +107,7 @@ export default function Features() {
               <BannerImage b={banners[2]} />
             </div>
 
-            <div className="mx-auto max-w-3xl">
+            <div className="mx-auto max-w-3xl md:max-w-md lg:max-w-lg">
               <BannerImage b={banners[3]} />
             </div>
           </div>
