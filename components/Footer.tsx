@@ -45,7 +45,6 @@ export default function Footer() {
             Sản phẩm
           </h3>
           <ul className="mt-4 space-y-3 text-sm text-blue-200/80">
-            <li>Keo bọt nở AL2 — Dòng Xanh</li>
             <li>Keo bọt nở AM2 — Dòng Đen</li>
             <li>Súng xịt &amp; phụ kiện</li>
             <li>Silicone &amp; Loncool</li>
@@ -81,7 +80,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="container-page flex flex-col items-center justify-between gap-2 py-5 text-xs text-blue-200/70 sm:flex-row">
           <p>© {new Date().getFullYear()} AOFENG. Bảo lưu mọi quyền.</p>
-          <p>Keo Bọt Nở PU Foam · AL2 &amp; AM2 chính hãng</p>
+          <p>Keo Bọt Nở PU Foam · AM2 chính hãng</p>
         </div>
       </div>
     </footer>

@@ -26,20 +26,15 @@ export type PackageOption = {
 };
 
 export const packageOptions: PackageOption[] = [
-  { value: "al2-1", label: "AL2 — 1 chai · 79.000đ" },
-  { value: "al2-2", label: "AL2 — Combo 2 chai · 158.000đ + Loncool" },
-  { value: "al2-3", label: "AL2 — Combo 3 chai · 213.300đ (-10%)" },
-  { value: "al2-6", label: "AL2 — Combo 6 chai · 426.600đ + Silicone" },
-  { value: "al2-12", label: "AL2 — Combo 12 chai · 853.200đ + 4 Silicone", hot: true },
   { value: "am2-1", label: "AM2 — 1 chai · 85.000đ" },
   { value: "am2-2", label: "AM2 — Combo 2 chai · 170.000đ + Loncool" },
   { value: "am2-3", label: "AM2 — Combo 3 chai · 229.500đ (-10%)" },
   { value: "am2-6", label: "AM2 — Combo 6 chai · 459.000đ + Silicone" },
-  { value: "am2-12", label: "AM2 — Combo 12 chai · 918.000đ + 4 Silicone" },
+  { value: "am2-12", label: "AM2 — Combo 12 chai · 918.000đ + 4 Silicone", hot: true },
 ];
 
 export type Product = {
-  id: "al2" | "am2";
+  id: "am2";
   name: string;
   badge: string;
   tier: string;
@@ -56,29 +51,6 @@ export type Product = {
 };
 
 export const products: Product[] = [
-  {
-    id: "al2",
-    name: "Keo Bọt Nở AL2",
-    badge: "Dòng Xanh · AL2",
-    tier: "Hạng dân dụng · 750ml",
-    image: "/images/Keo_Alone.png",
-    price: "79.000đ",
-    expansion: "35×",
-    density: "27 kg/m³",
-    fireRating: "B2",
-    accentClass: "green",
-    highlight: "Lắp khe, lỗ hổng — đa năng hàng ngày",
-    features: ["Cách âm", "Cách nhiệt", "Chống thấm"],
-    specs: [
-      { label: "Dung tích", value: "750ml — 900g" },
-      { label: "Cách dùng", value: "Vòi hoặc súng xịt" },
-      { label: "Khô bề mặt", value: "10–15 phút" },
-      { label: "Cắt phần thừa", value: "30–40 phút" },
-      { label: "Tính năng", value: "Cách âm · Cách nhiệt · Chống thấm" },
-      { label: "Cấu trúc bọt", value: "Ô nhỏ dày, chống thấm tốt" },
-    ],
-    mainUse: "Lắp khe, lỗ hổng — đa năng hàng ngày",
-  },
   {
     id: "am2",
     name: "Keo Bọt Nở AM2",

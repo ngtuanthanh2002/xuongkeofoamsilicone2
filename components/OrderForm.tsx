@@ -65,7 +65,7 @@ export default function OrderForm() {
               Để lại thông tin mua hàng
             </h2>
             <p className="mt-4 text-blue-100/85">
-              1 chai AL2 chỉ từ <strong className="text-accent">79.000đ</strong> — Miễn phí
+              1 chai AM2 chỉ từ <strong className="text-accent">85.000đ</strong> — Miễn phí
               vận chuyển toàn quốc.
             </p>
 

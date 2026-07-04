@@ -13,7 +13,7 @@ const testimonials = [
     role: "Chủ nhà · Bình Dương",
     avatar: "/images/avatar/AVATAR2.png",
     rating: 5,
-    text: "Mua combo AL2 lắp khe cửa sổ, chống ồn và chống thấm thấy rõ. Giao hàng nhanh, được kiểm tra hàng trước khi thanh toán.",
+    text: "Mua combo AM2 lắp khe cửa sổ, chống ồn và chống thấm thấy rõ. Giao hàng nhanh, được kiểm tra hàng trước khi thanh toán.",
   },
   {
     name: "Anh Minh",

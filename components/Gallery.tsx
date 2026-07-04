@@ -1,12 +1,12 @@
 import Image from "next/image";
 
 const gallery = [
-  { src: "/images/C1.jpg", alt: "Keo bọt nở AL2 trưng bày tại kho", span: "lg:col-span-2 lg:row-span-2" },
-  { src: "/images/B1.jpg", alt: "Bộ ba keo bọt nở AM2 kèm vòi xịt" },
-  { src: "/images/A1.jpg", alt: "Chai keo bọt nở AL2 và vòi xịt" },
+  { src: "/images/B1.jpg", alt: "Bộ ba keo bọt nở AM2 kèm vòi xịt", span: "lg:col-span-2 lg:row-span-2" },
   { src: "/images/C2.jpg", alt: "Dãy keo bọt nở AM2 dòng đen" },
-  { src: "/images/B2.jpg", alt: "Bộ ba keo bọt nở AL2 dòng xanh" },
   { src: "/images/A2.jpg", alt: "Chai keo bọt nở AM2 cận cảnh" },
+  { src: "/images/B1.jpg", alt: "Keo bọt nở AM2 trưng bày tại kho" },
+  { src: "/images/C2.jpg", alt: "Keo bọt nở AM2 kèm phụ kiện" },
+  { src: "/images/A2.jpg", alt: "Keo bọt nở AM2 chính hãng AOFENG" },
 ];
 
 export default function Gallery() {
@@ -15,16 +15,16 @@ export default function Gallery() {
       <div className="container-page">
         <div className="mx-auto max-w-2xl text-center">
           <span className="eyebrow">Hình ảnh thực tế</span>
-          <h2 className="section-title mt-2">Sản phẩm chính hãng</h2>
+          <h2 className="section-title mt-2">Sản phẩm AM2 chính hãng</h2>
           <p className="mt-4 text-base text-slate-600 sm:text-lg">
             Hình ảnh thật 100% — đóng gói chắc chắn, kèm vòi xịt đầy đủ.
           </p>
         </div>
 
         <div className="mt-12 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4 lg:grid-rows-2">
-          {gallery.map((g) => (
+          {gallery.map((g, i) => (
             <div
-              key={g.src}
+              key={`${g.src}-${i}`}
               className={`group relative aspect-square overflow-hidden rounded-2xl bg-slate-200 shadow-card ${
                 g.span ?? ""
               }`}

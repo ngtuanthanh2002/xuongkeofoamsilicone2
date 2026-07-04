@@ -36,13 +36,12 @@ export default function Hero() {
 
           <p className="mx-auto mt-3 max-w-lg text-sm leading-relaxed text-blue-100/90 sm:text-base lg:mx-0">
             Độ nở cao, bám dính cực mạnh, cách âm – cách nhiệt – chống thấm.
-            Hai dòng <strong className="text-white">AL2 (dân dụng)</strong> và{" "}
-            <strong className="text-white">AM2 (công trình)</strong> cho mọi nhu cầu.
+            Dòng <strong className="text-white">AM2</strong> chuyên dụng cho cửa và dán tấm ốp tường.
           </p>
 
           <div className="mt-5 flex flex-col items-center gap-3 sm:flex-row sm:justify-center lg:justify-start">
             <Link href="#dat-hang" className="btn-accent w-full !py-3 sm:w-auto">
-              Đặt hàng ngay — chỉ từ 79.000đ
+              Đặt hàng ngay — chỉ từ 85.000đ
             </Link>
             <Link
               href="#san-pham"
@@ -76,13 +75,12 @@ export default function Hero() {
         {/* Product showcase */}
         <div className="relative mx-auto w-full max-w-xs sm:max-w-sm lg:max-w-md">
           <div className="relative aspect-square w-full">
-            {/* glow ring */}
             <div className="absolute left-1/2 top-1/2 h-[82%] w-[82%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-tr from-accent/30 to-blue-300/20 blur-2xl" />
 
             <div className="absolute left-[4%] top-[14%] z-10 w-[44%] animate-float drop-shadow-2xl [animation-delay:-2s]">
               <Image
-                src="/images/Keo_Alone.png"
-                alt="Keo bọt nở PU Foam AOFENG AL2 - dòng xanh dân dụng"
+                src="/images/Keo_Alone2.png"
+                alt="Keo bọt nở PU Foam AOFENG AM2"
                 width={420}
                 height={1000}
                 className="h-auto w-full"
@@ -93,7 +91,7 @@ export default function Hero() {
             <div className="absolute right-[4%] top-[2%] z-20 w-[48%] animate-float drop-shadow-2xl">
               <Image
                 src="/images/Keo_Alone2.png"
-                alt="Keo bọt nở PU Foam AOFENG AM2 - dòng đen công trình"
+                alt="Keo bọt nở PU Foam AOFENG AM2"
                 width={420}
                 height={1000}
                 className="h-auto w-full"

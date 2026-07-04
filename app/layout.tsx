@@ -14,16 +14,15 @@ const siteUrl = "https://aofeng.vn";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Keo Bọt Nở PU Foam AOFENG | AL2 & AM2 Chính Hãng",
+    default: "Keo Bọt Nở PU Foam AOFENG | AM2 Chính Hãng",
     template: "%s | AOFENG PU Foam",
   },
   description:
-    "Keo bọt nở PU Foam AOFENG AL2 & AM2 chính hãng – độ nở cao, bám dính cực mạnh, cách âm, cách nhiệt, chống thấm. Chuyên dụng cho cửa, tấm ốp tường. Giá chỉ từ 79.000đ, miễn phí vận chuyển toàn quốc.",
+    "Keo bọt nở PU Foam AOFENG AM2 chính hãng – độ nở cao, bám dính cực mạnh, cách âm, cách nhiệt, chống thấm. Chuyên dụng cho cửa, tấm ốp tường. Giá chỉ từ 85.000đ, miễn phí vận chuyển toàn quốc.",
   keywords: [
     "keo bọt nở",
     "PU foam",
     "keo PU foam AOFENG",
-    "keo AL2",
     "keo AM2",
     "keo dán cửa",
     "keo dán tấm ốp tường",
@@ -40,12 +39,12 @@ export const metadata: Metadata = {
     locale: "vi_VN",
     url: siteUrl,
     siteName: "AOFENG PU Foam",
-    title: "Keo Bọt Nở PU Foam AOFENG | AL2 & AM2 Chính Hãng",
+    title: "Keo Bọt Nở PU Foam AOFENG | AM2 Chính Hãng",
     description:
       "Keo bọt nở PU Foam AOFENG – độ nở cao, bám dính cực mạnh, cách âm cách nhiệt chống thấm. Chuyên dụng cho cửa & tấm ốp tường.",
     images: [
       {
-        url: "/images/banner/1.png",
+        url: "/images/banner/1.jpg",
         width: 683,
         height: 1024,
         alt: "Keo bọt nở PU Foam AOFENG AM2",
@@ -54,10 +53,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Keo Bọt Nở PU Foam AOFENG | AL2 & AM2 Chính Hãng",
+    title: "Keo Bọt Nở PU Foam AOFENG | AM2 Chính Hãng",
     description:
       "Keo bọt nở PU Foam AOFENG – độ nở cao, bám dính cực mạnh, cách âm cách nhiệt chống thấm.",
-    images: ["/images/banner/1.png"],
+    images: ["/images/banner/1.jpg"],
   },
   icons: {
     icon: "/images/icona.png",
@@ -84,10 +83,10 @@ export const viewport: Viewport = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Product",
-  name: "Keo Bọt Nở PU Foam AOFENG (AL2 & AM2)",
-  image: [`${siteUrl}/images/banner/1.png`],
+  name: "Keo Bọt Nở PU Foam AOFENG AM2",
+  image: [`${siteUrl}/images/banner/1.jpg`],
   description:
-    "Keo bọt nở PU Foam AOFENG AL2 & AM2 – độ nở cao, bám dính cực mạnh, cách âm, cách nhiệt, chống thấm, chống cháy B2.",
+    "Keo bọt nở PU Foam AOFENG AM2 – độ nở cao, bám dính cực mạnh, cách âm, cách nhiệt, chống thấm, chống cháy B2.",
   brand: {
     "@type": "Brand",
     name: "AOFENG",
@@ -95,7 +94,7 @@ const jsonLd = {
   offers: {
     "@type": "AggregateOffer",
     priceCurrency: "VND",
-    lowPrice: "79000",
+    lowPrice: "85000",
     highPrice: "918000",
     offerCount: "10",
     availability: "https://schema.org/InStock",
