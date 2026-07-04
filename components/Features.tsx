@@ -22,10 +22,10 @@ const banners: Banner[] = [
     height: 858,
   },
   {
-    src: "/images/banner/3.jpg",
+    src: "/images/LD1/3.png",
     alt: "Lỗ bọt đều, chống nước tốt, cách nhiệt hiệu quả",
     width: 1020,
-    height: 761,
+    height: 912,
   },
   {
     src: "/images/banner/4.jpg",
@@ -34,10 +34,10 @@ const banners: Banner[] = [
     height: 1024,
   },
   {
-    src: "/images/banner/5.jpg",
+    src: "/images/LD1/5.png",
     alt: "Test độ cứng - bền vững chắc chắn, chịu lực tốt",
     width: 1020,
-    height: 760,
+    height: 904,
   },
 ];
 
@@ -99,17 +99,10 @@ export default function Features() {
             </p>
           </div>
 
-          <div className="mx-auto mt-10 max-w-5xl space-y-5 sm:space-y-6 md:max-w-2xl lg:max-w-3xl">
-            <BannerImage b={banners[0]} />
-
-            <div className="grid items-start gap-5 sm:gap-6 md:grid-cols-2">
-              <BannerImage b={banners[1]} />
-              <BannerImage b={banners[2]} />
-            </div>
-
-            <div className="mx-auto max-w-3xl md:max-w-md lg:max-w-lg">
-              <BannerImage b={banners[3]} />
-            </div>
+          <div className="mx-auto mt-10 w-full max-w-5xl space-y-5 sm:space-y-6 md:max-w-2xl lg:max-w-3xl">
+            {banners.map((b) => (
+              <BannerImage key={b.src} b={b} />
+            ))}
           </div>
         </div>
       </section>
