@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const trustPoints = [
   { value: "45×", label: "Độ nở tối đa" },
@@ -39,17 +38,9 @@ export default function Hero() {
             Dòng <strong className="text-white">AM2</strong> chuyên dụng cho cửa và dán tấm ốp tường.
           </p>
 
-          <div className="mt-5 flex flex-col items-center gap-3 sm:flex-row sm:justify-center lg:justify-start">
-            <Link href="#dat-hang" className="btn-accent w-full !py-3 sm:w-auto">
-              Đặt hàng ngay — chỉ từ 85.000đ
-            </Link>
-            <Link
-              href="#san-pham"
-              className="btn w-full border-2 border-white/40 !py-3 text-white hover:bg-white hover:text-brand-900 sm:w-auto"
-            >
-              Xem sản phẩm
-            </Link>
-          </div>
+          <p className="mt-5 font-display text-2xl font-extrabold tracking-wide text-accent sm:text-3xl lg:text-4xl">
+            KEO BỌT NỞ AM2
+          </p>
 
           <dl className="mx-auto mt-7 grid max-w-md grid-cols-3 gap-3 lg:mx-0">
             {trustPoints.map((p) => (

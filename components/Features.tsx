@@ -33,12 +33,6 @@ const banners: Banner[] = [
     width: 1020,
     height: 1024,
   },
-  {
-    src: "/images/LD1/5.png",
-    alt: "Test độ cứng - bền vững chắc chắn, chịu lực tốt",
-    width: 1020,
-    height: 904,
-  },
 ];
 
 const imgClass =
@@ -70,9 +64,6 @@ export default function Features() {
           <div className="mx-auto mt-14 max-w-3xl text-center sm:mt-16">
             <span className="eyebrow">Trải nghiệm thực tế</span>
             <h2 className="section-title mt-2">Video thực tế</h2>
-            <p className="mt-4 text-base text-slate-600 sm:text-lg">
-              Xem hướng dẫn sử dụng và hiệu quả thi công keo bọt nở AOFENG AM2.
-            </p>
 
             <div className="mt-8 overflow-hidden rounded-3xl bg-slate-900 p-2 shadow-soft ring-1 ring-slate-200 sm:p-3">
               <video
@@ -92,17 +83,25 @@ export default function Features() {
       <section id="dac-diem" className="bg-slate-50 py-16 sm:py-20 md:py-24">
         <div className="container-page">
           <div className="mx-auto max-w-2xl text-center">
-            <span className="eyebrow">Đặc điểm nổi bật</span>
-            <h2 className="section-title mt-2">Đặc điểm sản phẩm</h2>
-            <p className="mt-4 text-base text-slate-600 sm:text-lg">
-              Keo bọt nở AM2 — an tâm chất lượng — bền vững theo thời gian.
-            </p>
+            <h2 className="section-title">Đặc điểm sản phẩm</h2>
           </div>
 
           <div className="mx-auto mt-10 w-full max-w-5xl space-y-5 sm:space-y-6 md:max-w-2xl lg:max-w-3xl">
             {banners.map((b) => (
               <BannerImage key={b.src} b={b} />
             ))}
+
+            <div className="overflow-hidden rounded-2xl bg-slate-900 shadow-card ring-1 ring-slate-100">
+              <video
+                controls
+                playsInline
+                preload="metadata"
+                className="mx-auto h-auto w-full bg-black object-contain"
+              >
+                <source src="/images/video/8073813458426.mp4" type="video/mp4" />
+                Trình duyệt của bạn không hỗ trợ phát video.
+              </video>
+            </div>
           </div>
         </div>
       </section>

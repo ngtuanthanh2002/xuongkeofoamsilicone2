@@ -53,16 +53,16 @@ export type Product = {
 export const products: Product[] = [
   {
     id: "am2",
-    name: "Keo Bọt Nở AM2",
+    name: "KEO BỌT NỞ AM2",
     badge: "Dòng Đen · AM2",
     tier: "Hạng công trình · 750ml",
     image: "/images/Keo_Alone2.png",
-    price: "85.000đ",
+    price: "85.000vnd",
     expansion: "45×",
     density: "20 kg/m³",
     fireRating: "B2",
     accentClass: "dark",
-    highlight: "Lắp khe + kết dính tấm ốp, decor",
+    highlight: "Lấp khe hở + dán dính tấm ốp tường",
     features: ["Không co", "Không chảy dầu", "Bám cực mạnh"],
     specs: [
       { label: "Dung tích", value: "750ml — 900g" },
@@ -72,6 +72,6 @@ export const products: Product[] = [
       { label: "Tính năng", value: "Cách âm · Cách nhiệt · Chống thấm" },
       { label: "Đặc biệt", value: "Không co · Không chảy dầu · Bám cực mạnh" },
     ],
-    mainUse: "Lắp khe + kết dính tấm ốp, decor",
+    mainUse: "Lấp khe hở + dán dính tấm ốp tường",
   },
 ];
